@@ -1,0 +1,38 @@
+{
+  "name": "nucleotide",
+  "version": "0.0.1",
+  "description": "A starter module to test templating an electron app.",
+  "license": "MIT",
+  "repository": "kigenofkenya/nucleotide",
+  "author": {
+    "name": "kigenofkenya",
+    "email": "a.nzibo@gmail.com",
+    "url": "github.com/kigenofkenya"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "async": "^1.5.2",
+    "file-system": "^2.2.1",
+    "meow": "^3.7.0",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "xo": "^0.12.1"
+  }
+}
